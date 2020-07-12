@@ -20,7 +20,7 @@ char	*ft_strrev(char *str)
 	int b;
 	char temp;
 
-	length = 0;
+	index = 0;
 	while (str[index] != '\0')
 	{
 		index++;
